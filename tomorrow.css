@@ -1,15 +1,13 @@
 /** TOMORROW, I'LL ...
-
 Original by 7185 for 8chan - upadted by Danish for endchan
 https://github.com/thedanish/endchan-tomorrow
-
 **/
 body {
   background: #1D1F21 none;
   color: #C5C8C6;
   font-family: helvetica
 }
-.boardHeader p, .noEmailName, .noEmailName:hover, .linkSelf, .linkQuote, .hideLink, .threadPages span {
+.boardHeader p, .noEmailName, .noEmailName:hover, .linkSelf, .linkQuote, .hideLink, .threadPages span, .close-btn {
   color: #C5C8C6!important
 }
 a:link, a:visited, a:active, .quoteLink, .linkName {
@@ -18,7 +16,7 @@ a:link, a:visited, a:active, .quoteLink, .linkName {
 a:hover {
   color: #5F89AC!important
 }
-.innerPost, .markedPost, .form-post th {
+.innerPost, .markedPost {
   background-color: #282A2E;
   border-color: #282A2E!important
 }
@@ -63,6 +61,13 @@ nav {
 #modeBanner {
   color: #FFF;
   background-color: #1D1F21
+}
+#quick-reply table {
+    background: #1D1F21 none repeat scroll 0% 0%;
+    border-color: #111
+}
+th {
+  background-color: #282A2E!important
 }
 /* reply thumbnails */
 .innerPost .imgLink img {
