@@ -37,7 +37,8 @@ hr {
   padding-right: 2px
 }
 .uploadDetails {
-  width: 255px
+  width: 255px;
+  word-break: break-all
 }
 .greenText {
     color: #ADBD68
