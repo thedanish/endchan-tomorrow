@@ -10,8 +10,9 @@ body {
 .boardHeader p, .noEmailName, .noEmailName:hover, .linkSelf, .linkQuote, .hideLink, .threadPages span, .close-btn {
   color: #C5C8C6!important
 }
-a[id^='hide'], a:link, a:visited, a:active, .quoteLink, .linkName {
+html nav a, a[id^='hide'], a:link, a:visited, a:active, .quoteLink, .linkName {
   color: #81A2BE
+  text-decoration: none
 }
 a:hover {
   color: #5F89AC!important
