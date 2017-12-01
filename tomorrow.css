@@ -11,7 +11,7 @@ body {
   color: #C5C8C6!important
 }
 html nav a, a[id^='hide'], a:link, a:visited, a:active, .quoteLink, .linkName {
-  color: #81A2BE
+  color: #81A2BE;
   text-decoration: none
 }
 a:hover {
